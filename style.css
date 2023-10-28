@@ -169,3 +169,136 @@ main {
 .hidden {
   display: none;
 }
+
+@media only screen and (max-width: 1100px) {
+  main {
+    width: 70rem;
+    height: 40rem;
+  }
+  .player {
+    padding: 7rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .current {
+    width: 50%;
+  }
+  .current-label {
+    font-size: 1.4rem;
+  }
+  .current-score {
+    font-size: 2.5rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.5rem 1.8rem;
+  }
+  .btn--roll {
+    top: 28rem;
+  }
+  .btn--hold {
+    top: 33rem;
+  }
+  .btn::first-letter {
+    font-size: 1.8rem;
+  }
+  .dice {
+    height: 8rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  main {
+    flex-direction: column;
+    height: 75rem;
+    width: 50rem;
+  }
+  .btn--roll {
+    top: 36rem;
+    left: 11rem;
+  }
+  .btn--hold {
+    top: 36rem;
+    left: 37.5rem;
+  }
+  .btn--new {
+    top: 1.5rem;
+  }
+  .dice {
+    top: 33.5rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  main {
+    flex-direction: column;
+    height: 70rem;
+    width: 40rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .score {
+    font-size: 5rem;
+  }
+  .btn--roll {
+    top: 34rem;
+    left: 8rem;
+  }
+  .btn--hold {
+    top: 34rem;
+    left: 32rem;
+    width: 15rem;
+  }
+  .btn--new {
+    top: 1.5rem;
+  }
+  .dice {
+    top: 33.5rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  main {
+    width: 30rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .btn--roll {
+    top: 33rem;
+    left: 6rem;
+  }
+  .btn--hold {
+    top: 33rem;
+    left: 24rem;
+    width: 6.5rem;
+  }
+  .btn--new {
+    top: 1.5rem;
+    width: 10rem;
+  }
+  .dice {
+    top: 31rem;
+  }
+  .score {
+    font-size: 4rem;
+  }
+  .current {
+    width: 65%;
+  }
+  .player {
+    padding: 7rem;
+  }
+  .btn span {
+    display: none;
+  }
+}
